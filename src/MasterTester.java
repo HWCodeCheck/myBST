@@ -29,7 +29,7 @@ public class MasterTester {
 			sb.append(bst);
 		}
 
-		if(!(out.equals(sb.toString()))
+		if(!(out.equals(sb.toString())))
 			throw new IncorrectlyCompletedException();
 	}
 }
